@@ -25,18 +25,15 @@
     
     _pageControl = [SJPageControl new];
     [self.view addSubview:_pageControl];
-    _pageControl.numberOfPages = 3;
-    _pageControl.setting.pageIndicatorSize = CGSizeMake(20, 20);
+    _pageControl.setting.pageIndicatorSize = CGSizeMake(12, 12);
     _pageControl.setting.currentPageIndicatorImage = [UIImage imageNamed:@"current"];
-    _pageControl.setting.currenPageIndicatorSize = CGSizeMake(40, 40);
+    _pageControl.setting.currenPageIndicatorSize = CGSizeMake(18, 18);
     _pageControl.setting.pageIndicatorImage = [UIImage imageNamed:@"page"];
+    _pageControl.numberOfPages = 3;
     
     [_pageControl mas_makeConstraints:^(MASConstraintMaker *make) {
         make.center.offset(0);
     }];
-    
-    
-    [_pageControl update];
     
     // Do any additional setup after loading the view, typically from a nib.
 }
@@ -55,6 +52,10 @@
 
 - (IBAction)current:(id)sender {
     _pageControl.currentPage += 1;
+}
+
+- (IBAction)back:(id)sender {
+    _pageControl.currentPage -= 1;
 }
 
 - (void)didReceiveMemoryWarning {

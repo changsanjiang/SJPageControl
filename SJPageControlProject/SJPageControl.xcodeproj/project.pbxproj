@@ -19,6 +19,7 @@
 		77F0E3441FCD203B00320E5A /* SJPageIndicatorSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F0E3401FCD203B00320E5A /* SJPageIndicatorSetting.m */; };
 		77F0E3461FCD3ECF00320E5A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 77F0E3451FCD3ECF00320E5A /* README.md */; };
 		77F0E3481FCD3F3100320E5A /* SJPageControl.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 77F0E3471FCD3F3000320E5A /* SJPageControl.podspec */; };
+		77F0E3541FCD445F00320E5A /* ex.gif in Resources */ = {isa = PBXBuildFile; fileRef = 77F0E3531FCD445F00320E5A /* ex.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		77F0E3411FCD203B00320E5A /* SJPageControlHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJPageControlHeader.h; sourceTree = "<group>"; };
 		77F0E3451FCD3ECF00320E5A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		77F0E3471FCD3F3000320E5A /* SJPageControl.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SJPageControl.podspec; path = ../SJPageControl.podspec; sourceTree = "<group>"; };
+		77F0E3531FCD445F00320E5A /* ex.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ex.gif; sourceTree = "<group>"; };
 		9F4F1FED224068C18D4AF114 /* Pods-SJPageControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJPageControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-SJPageControl/Pods-SJPageControl.release.xcconfig"; sourceTree = "<group>"; };
 		F443F1FDA8CDEF532350A7DF /* Pods-SJPageControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJPageControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SJPageControl/Pods-SJPageControl.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +95,7 @@
 				778B330A1FCD0308004A7D78 /* AppDelegate.m */,
 				778B330C1FCD0308004A7D78 /* ViewController.h */,
 				778B330D1FCD0308004A7D78 /* ViewController.m */,
+				77F0E3531FCD445F00320E5A /* ex.gif */,
 				77F0E3371FCD203B00320E5A /* SJPageControl */,
 				778B330F1FCD0308004A7D78 /* Main.storyboard */,
 				778B33121FCD0308004A7D78 /* Assets.xcassets */,
@@ -217,6 +220,7 @@
 				77F0E3481FCD3F3100320E5A /* SJPageControl.podspec in Resources */,
 				778B33131FCD0308004A7D78 /* Assets.xcassets in Resources */,
 				778B33111FCD0308004A7D78 /* Main.storyboard in Resources */,
+				77F0E3541FCD445F00320E5A /* ex.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

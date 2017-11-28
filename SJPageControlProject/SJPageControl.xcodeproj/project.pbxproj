@@ -15,10 +15,10 @@
 		778B33161FCD0308004A7D78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 778B33141FCD0308004A7D78 /* LaunchScreen.storyboard */; };
 		778B33191FCD0308004A7D78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 778B33181FCD0308004A7D78 /* main.m */; };
 		77F0E3271FCD19E400320E5A /* SJPageControl.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 77F0E3261FCD19E400320E5A /* SJPageControl.podspec */; };
-		77F0E3361FCD1AC000320E5A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 77F0E3351FCD1ABF00320E5A /* README.md */; };
 		77F0E3421FCD203B00320E5A /* SJPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F0E33A1FCD203B00320E5A /* SJPageControl.m */; };
 		77F0E3431FCD203B00320E5A /* SJPageIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F0E33D1FCD203B00320E5A /* SJPageIndicator.m */; };
 		77F0E3441FCD203B00320E5A /* SJPageIndicatorSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F0E3401FCD203B00320E5A /* SJPageIndicatorSetting.m */; };
+		77F0E3461FCD3ECF00320E5A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 77F0E3451FCD3ECF00320E5A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,8 +33,7 @@
 		778B33151FCD0308004A7D78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		778B33171FCD0308004A7D78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		778B33181FCD0308004A7D78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		77F0E3261FCD19E400320E5A /* SJPageControl.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SJPageControl.podspec; path = ../../SJPageControl.podspec; sourceTree = "<group>"; };
-		77F0E3351FCD1ABF00320E5A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		77F0E3261FCD19E400320E5A /* SJPageControl.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SJPageControl.podspec; sourceTree = "<group>"; };
 		77F0E3391FCD203B00320E5A /* SJPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJPageControl.h; sourceTree = "<group>"; };
 		77F0E33A1FCD203B00320E5A /* SJPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJPageControl.m; sourceTree = "<group>"; };
 		77F0E33C1FCD203B00320E5A /* SJPageIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJPageIndicator.h; sourceTree = "<group>"; };
@@ -42,6 +41,7 @@
 		77F0E33F1FCD203B00320E5A /* SJPageIndicatorSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJPageIndicatorSetting.h; sourceTree = "<group>"; };
 		77F0E3401FCD203B00320E5A /* SJPageIndicatorSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJPageIndicatorSetting.m; sourceTree = "<group>"; };
 		77F0E3411FCD203B00320E5A /* SJPageControlHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJPageControlHeader.h; sourceTree = "<group>"; };
+		77F0E3451FCD3ECF00320E5A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9F4F1FED224068C18D4AF114 /* Pods-SJPageControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJPageControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-SJPageControl/Pods-SJPageControl.release.xcconfig"; sourceTree = "<group>"; };
 		F443F1FDA8CDEF532350A7DF /* Pods-SJPageControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJPageControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SJPageControl/Pods-SJPageControl.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,6 +69,8 @@
 		778B32FD1FCD0308004A7D78 = {
 			isa = PBXGroup;
 			children = (
+				77F0E3261FCD19E400320E5A /* SJPageControl.podspec */,
+				77F0E3451FCD3ECF00320E5A /* README.md */,
 				778B33081FCD0308004A7D78 /* SJPageControl */,
 				778B33071FCD0308004A7D78 /* Products */,
 				D554C6FCB5E3BDC460B333BB /* Pods */,
@@ -87,8 +89,6 @@
 		778B33081FCD0308004A7D78 /* SJPageControl */ = {
 			isa = PBXGroup;
 			children = (
-				77F0E3351FCD1ABF00320E5A /* README.md */,
-				77F0E3261FCD19E400320E5A /* SJPageControl.podspec */,
 				778B33091FCD0308004A7D78 /* AppDelegate.h */,
 				778B330A1FCD0308004A7D78 /* AppDelegate.m */,
 				778B330C1FCD0308004A7D78 /* ViewController.h */,
@@ -214,7 +214,7 @@
 			files = (
 				77F0E3271FCD19E400320E5A /* SJPageControl.podspec in Resources */,
 				778B33161FCD0308004A7D78 /* LaunchScreen.storyboard in Resources */,
-				77F0E3361FCD1AC000320E5A /* README.md in Resources */,
+				77F0E3461FCD3ECF00320E5A /* README.md in Resources */,
 				778B33131FCD0308004A7D78 /* Assets.xcassets in Resources */,
 				778B33111FCD0308004A7D78 /* Main.storyboard in Resources */,
 			);

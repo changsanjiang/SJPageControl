@@ -59,7 +59,7 @@
     if ( currentPage < 0 ) currentPage = 0;
     
     if ( _currentPage <= _numberOfPages - 1 ) self.indicatorsM[_currentPage].currentPage = NO;
-    self.indicatorsM[currentPage].currentPage = YES;
+    if ( currentPage < self.indicatorsM.count ) self.indicatorsM[currentPage].currentPage = YES;
     
     _currentPage = currentPage;
 }

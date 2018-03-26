@@ -92,8 +92,8 @@
                 [self.contentView addSubview:pageIndicator];
                 [pageIndicator mas_makeConstraints:^(MASConstraintMaker *make) {
                     make.top.bottom.equalTo(pageIndicator.superview);
-                    if ( _indicatorsM.lastObject ) make.leading.equalTo(_indicatorsM.lastObject.mas_trailing).offset(_pageIndicatorSpacing);
-                    else make.leading.offset(_pageIndicatorSpacing);
+                    if ( self->_indicatorsM.lastObject ) make.leading.equalTo(self->_indicatorsM.lastObject.mas_trailing).offset(self->_pageIndicatorSpacing);
+                    else make.leading.offset(self->_pageIndicatorSpacing);
                 }];
                 [self.indicatorsM addObject:pageIndicator];
                 _numberOfPages ++;
